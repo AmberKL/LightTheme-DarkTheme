@@ -1,0 +1,49 @@
+:root {
+    --green: radial-gradient(blue, green, orange, red);
+    --white: #FFFFFF;
+    --black: #1b1b1b;
+    --grey: #3f3f42;
+  }
+
+body {
+    font-family: monospace;
+    background: var(--bg);
+    color: var(--fontColor);
+    background-size: 200vw 200vh;
+    margin: 0;
+    padding: 0;
+    padding-right: 1vw;
+    padding-left:1vw;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.tracker {
+    font-size: 10vw;
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+    padding-right: 4vw;
+}
+
+.paragraph1 {
+    font-weight: bold;
+}
+
+button {
+    cursor:grab;
+    background-color: transparent;
+    border: transparent;
+    color: var(--fontColor);
+    font-weight: bold;
+    padding-right: 4vw;
+    padding-left: 1vw;
+}
+
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+  }
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--grey);
+  }
